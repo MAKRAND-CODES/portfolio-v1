@@ -1,4 +1,4 @@
-# 🚀 Makrand Sanghvi Portfolio
+# 🚀 Makrand's  Portfolio
 
 A modern Full Stack Developer portfolio built using React, Vite, Tailwind CSS, Framer Motion, and modern web technologies.
 
