@@ -33,7 +33,7 @@ A modern Full Stack Developer portfolio built using React, Vite, Tailwind CSS, F
 
 ## 🔗 Live Demo
 
-https://vercel.com/makrand-codes-projects/portfolio-v1/ELSBUSKjD978gNAx5pmZaaGkKkX6
+https://portfolio-v1-ooa9j7yh5-makrand-codes-projects.vercel.app/
 
 ## ⚙️ Installation
 
