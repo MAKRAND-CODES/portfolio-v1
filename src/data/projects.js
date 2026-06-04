@@ -59,25 +59,28 @@ const projects = [
 
   {
     id: "03",
-    title: "Hack2Skill",
+    title: "KisanSetu",
 
-    category: "Innovation Platform",
+    category: "AgriBased Platform",
 
     description:
-      "Prototype platform designed to simplify collaboration, project discovery and innovation workflows for students and builders.",
+      "Full-Stack Platform dedicated to the Farmer support and welfare with authentication,farmer dashboard , complaint system , Daily Mandi Rates , Government Schemes , Fertiliizzer Guide , officer/admin roles and rekated workflow ",
 
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+      "C:\Users\makom\OneDrive\Pictures\Screenshots",
 
-    github: "#",
+    github: "https://github.com/MAKRAND-CODES/KisanSetu",
 
-    live: "#",
+    live: "https://kisan-setu-c6yf.vercel.app/",
 
     stack: [
       "React",
-      "Node",
+      "Node.js",
+      "Express.js",
       "MongoDB",
+      "JWT",
       "REST APIs",
+      "Tailwind"
     ],
   },
 

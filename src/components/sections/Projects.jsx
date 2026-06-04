@@ -62,6 +62,23 @@ const projects = [
     live: "#",
     github: "#",
   },
+{
+  title: "Kisan Setu",
+  tag: "AgriBased Platform",
+  description:
+    "Full-stack farmer support platform with authentication, farmer dashboard, complaints system, weather data, market prices, insurance, schemes, and officer/admin workflows.",
+  stack: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "REST APIs",
+    "Tailwind",
+  ],
+  live: "https://kisan-setu-c6yf.vercel.app/",
+  github: "https://github.com/MAKRAND-CODES/KisanSetu",
+},
 ];
 
 const Projects = () => {
