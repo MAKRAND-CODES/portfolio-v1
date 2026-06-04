@@ -281,7 +281,7 @@ const Hero = () => {
   useGsap();
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden px-6 lg:px-16">
+    <section className="relative min-h-screen flex items-center overflow-hidden px-6 pt-28 pb-16 lg:px-16">
 
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#1e3a8a,transparent_40%)] opacity-30" />
@@ -315,7 +315,7 @@ const Hero = () => {
               delay: 0.4,
               duration: 1,
             }}
-            className="hero-title text-6xl md:text-8xl font-black leading-none tracking-tight"
+            className="hero-title text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black leading-[1.05] tracking-tight"
           >
             Makrand
             <br />

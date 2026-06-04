@@ -132,7 +132,7 @@ const ContactTerminal = () => {
                         CONTACT TERMINAL
                     </p>
 
-                    <h2 className="text-5xl md:text-7xl font-black leading-tight">
+                    <h2 className="text-4xl md:text-7xl font-black leading-tight">
                         Let's Build
 
                         <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">
@@ -149,7 +149,7 @@ const ContactTerminal = () => {
 
                 {/* Main Grid */}
 
-                <div className="grid lg:grid-cols-2 gap-10">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
                     {/* Left Side */}
 
@@ -247,7 +247,7 @@ duration-300
 
                     {/* Right Side */}
 
-                    <div className="rounded-[40px] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-2xl p-10 shadow-[0_0_50px_rgba(34,211,238,0.08)]">
+                    <div className="rounded-[32px] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-2xl p-10 shadow-[0_0_50px_rgba(34,211,238,0.08)]">
 
                         <p className="text-cyan-400 uppercase tracking-[0.3em] text-xs mb-6">
                             SYSTEM ACTIVITY

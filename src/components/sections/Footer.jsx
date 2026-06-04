@@ -67,7 +67,7 @@ const Footer = () => {
               DIGITAL COMMAND CENTER
             </p>
 
-            <h2 className="text-5xl md:text-7xl font-black leading-none">
+            <h2 className="text-4xl md:text-7xl font-black leading-none">
 
               <span className="block">
                 MAKRAND
@@ -167,7 +167,7 @@ const Footer = () => {
               Navigation
             </p>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-16">
 
               {[
                 "Home",
@@ -230,7 +230,7 @@ const Footer = () => {
         </div>
 
         {/* SOCIAL DOCK */}
-        <div className="flex flex-wrap justify-center gap-5 mt-16">
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-16">
 
           {links.map((link) => {
             const Icon = link.icon;
