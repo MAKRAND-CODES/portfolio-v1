@@ -53,10 +53,23 @@ const ContactTerminal = () => {
 
 
     const handleCopy = async (text, title) => {
-        if (title === "RESUME") {
-            window.open("/resume.pdf", "_blank");
-            return;
-        }
+       if (title === "RESUME") {
+  const link = document.createElement("a");
+
+  link.href =
+    "/MAKRAND-RESUME2.pdf";
+
+  link.download =
+    "MAKRAND-RESUME2.pdf";
+
+  document.body.appendChild(link);
+
+  link.click();
+
+  document.body.removeChild(link);
+
+  return;
+}
 
         try {
             await navigator.clipboard.writeText(text);

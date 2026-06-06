@@ -44,7 +44,7 @@ const links = [
   {
     title: "Resume",
     icon: FaFileAlt,
-    href: "/resume.pdf",
+    href: "/MAKRAND-RESUME2.pdf",
   },
 ];
 
